@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when run with the
+# -o option to specify an output file.
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Local configuration files
+config.local.yaml
+config.local.yml
+config.local.json
+config.local.toml
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*~
+
+# Compiled binary
+auth-service
+/auth-service.exe
+cmd/server/server
+/cmd/server/server.exe
+
+# Dependency directories
+/vendor/ 
